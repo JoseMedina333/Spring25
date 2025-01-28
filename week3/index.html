@@ -24,7 +24,7 @@
 
 
 
-    <form action="index.html" method="get">
+    <form action="index.html" method="get" enctype="multipart/form-data">
         <div>
             <label for="favoriteSnack">Favorite Snack:</label>
             <input type="text" name="favoriteSnack" id="favoriteSnack" placeholder="Peeps" required>
@@ -46,6 +46,14 @@
             <label for="snackColorMood">Snack Color Mood:</label>
             <input type="color" name="snackColorMood" id="snackColorMood">
         </div>
+
+
+        <div>
+            <label for="snackPic">Picture of Snack</label>
+            <input type="file" accept="image/*">
+        </div>
+
+        <input type="button" value="">
 
         <input type="submit" value="submit Snacks">
     </form>
