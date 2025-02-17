@@ -9,5 +9,3 @@ For my blog I chose to talk about movies I watched recently.
 I still gave to practice with css because I was struggling to connect what I wanted to change.
 
 ### Live Link
-
-[Blog Page](https://{username}.github.io/{reponame}/homework-2)
