@@ -10,4 +10,4 @@ I learned how to use DOM manipulation to dynamically update content on the webpa
 
 ### Live Link
 
-[Blog Page](https://{username}.github.io/{reponame}/homework-2)
+https://josemedina333.github.io/Spring25/homework-4/index.html
