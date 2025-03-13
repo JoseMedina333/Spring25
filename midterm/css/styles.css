@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   html, body {
+    height: 100%
+   }
+   h1, h2, h3, h4, h5, h6, p 
+   {
+    margin-bottom: 16px
+   }
+   
+   nav{
+       border-bottom: 2px solid black;
+       padding: 10px;
+       background-color: lightgray;
+       display: flex;
+   }
+   
+
+
+   nav h1 {
+    margin-left: 20px; 
+    font-size: 1.5rem; 
+}
+
+
+
+   nav ul {
+   display: flex;
+   justify-content: left;
+   align-items: flex-end;
+   gap: 40px;
+   list-style: none;
+   margin-left: 20.px;
+   }
+   
+   nav ul li a {
+   display: block;
+   color: black;
+   text-decoration: none;
+   padding-bottom: 2px;
+   }
+   
+   nav ul li a.active {
+       font-weight: bold;
+       border-bottom: 2px solid black;
+   }
+
+
+   .header-section {
+    display: flex;
+    align-items: center;
+    margin: 40px;
+    gap: 20px;
+}
+
+.header-section img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.header-section div {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+}
+
+.header-section h1 {
+    font-size: 2rem;
+    margin-bottom: 16px;
+}
+
+.header-section p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.header-section .btn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px 15px;
+    border-radius: 3px;
+    font-size: 1rem;
+    
+}
+
+   
+
+ 
