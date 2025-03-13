@@ -2,4 +2,4 @@
 
 ### Live Link
 
-[Home] https://josemedina333.github.io/Spring25/midterm/
+[Home] https://josemedina333.github.io/Spring25/midterm/index.html
