@@ -57,8 +57,8 @@
 }
 
 .header-section img {
-    width: 400px;
-    height: 300px;
+    width: 500px;
+    height: 200px;
     object-fit: cover;
 }
 
@@ -84,9 +84,10 @@
     text-decoration: none;
     color: white;
     background-color: black;
-    padding: 10px 15px;
+    padding: 8px 12px;
     border-radius: 3px;
     font-size: 1rem;
+    
     
 }
 
