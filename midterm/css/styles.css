@@ -234,21 +234,13 @@
     margin-top: 20px;
 }
 
-.product-card {
-    background-color: #f9f9f9;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    text-align: center;
-}
+
 
 .product-image {
     width: 150px;
     height: 150px;
-    background-color: lightgray; 
     margin: 0 auto 10px auto; 
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    
 }
 
 .product-card h4 {
