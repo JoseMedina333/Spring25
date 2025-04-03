@@ -24,12 +24,14 @@ nav ul {
     background-color: purple;
     list-style: none;
      padding: 20px; 
-
+    text-decoration: none;
     display: flex;
     gap: 20px;
     list-style: none;
 
 }
+
+
 
 
 nav a {
