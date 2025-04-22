@@ -26,6 +26,11 @@ async function addNewDream (e) {
 
     const dreamTextValue = dreamTextRef.value;
 
+    if(dreamTextValue.trim()==""){
+      alert("Please enter a valid dream");
+    }else{
+
+    }
 
     const newDream = await addDoc(dreamsCollection,{text:dreamTextValue});
 
@@ -33,5 +38,7 @@ async function addNewDream (e) {
 }
 
 dreamFormRef.onsubmit = addNewdream;
+
+dreamFormRef.reset()
 
 getDreams();
